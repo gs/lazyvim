@@ -4,4 +4,4 @@
 --
 vim.keymap.set("n", ";", ":")
 vim.keymap.set("n", "<c-p>", "<esc>:Telescope find_files<cr>")
-vim.keymap.set("n", "<cr>", "<esc>:w!|:vsp<cr>|:TestFile<cr>")
+vim.keymap.set("n", "<cr>", "<esc>:w!|:TestFile<cr>")
