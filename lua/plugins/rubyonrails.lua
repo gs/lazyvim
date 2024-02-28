@@ -1,6 +1,5 @@
 return {
   "tpope/vim-fugitive",
-  "tpope/vim-rails",
   "vim-test/vim-test",
   {
     "dpayne/CodeGPT.nvim",
