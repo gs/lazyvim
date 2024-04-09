@@ -1,6 +1,7 @@
 {
   "extras": [
     "lazyvim.plugins.extras.coding.codeium",
+    "lazyvim.plugins.extras.coding.native_snippets",
     "lazyvim.plugins.extras.coding.tabnine",
     "lazyvim.plugins.extras.formatting.prettier",
     "lazyvim.plugins.extras.lang.python",
