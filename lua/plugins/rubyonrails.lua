@@ -11,18 +11,4 @@ return {
       require("codegpt.config")
     end,
   },
-  {
-    "nvim-neotest/neotest",
-    lazy = true,
-    dependencies = {
-      "zidhuss/neotest-minitest",
-    },
-    config = function()
-      require("neotest.Config").setup({
-        adapters = {
-          require("neotest-minitest"),
-        },
-      })
-    end,
-  },
 }
