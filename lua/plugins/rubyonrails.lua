@@ -1,14 +1,5 @@
 return {
   "tpope/vim-rails",
   "vim-test/vim-test",
-  {
-    "dpayne/CodeGPT.nvim",
-    dependencies = {
-      "nvim-lua/plenary.nvim",
-      "MunifTanjim/nui.nvim",
-    },
-    config = function()
-      require("codegpt.config")
-    end,
-  },
+  "tpope/vim-fugitive",
 }
