@@ -4,4 +4,4 @@
 --
 vim.keymap.set("n", ";", ":")
 vim.keymap.set("n", "<cr>", "<esc>:w!|:TestFile<cr>")
-vim.keymap.set("n", "<c-l>", "<esc>:Neogit<cr>")
+vim.keymap.set("n", "<c-x>", "<esc>:Neogit<cr>")
